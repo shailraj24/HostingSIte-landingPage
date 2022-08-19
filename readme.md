@@ -15,4 +15,4 @@ it's take near about 6 to 7  Hour to complete(with media query).
 
 ## Deployed link
 
-[Interior landing Page](https://interior-designer-landingpage-mq.netlify.app/)
+[Hosting site - landing Page](https://raj-site-hosting.netlify.app/)
