@@ -543,3 +543,62 @@ margin-top: 10px;
         display: none;
     }
 }
+
+@media  screen and (max-width: 410px) {
+    .nav-item{
+        font-size: 12px;
+        margin-left: 4px;
+    }
+    nav{
+        margin: 5px;
+    }
+
+    .sec-1 .heading , .sec-2 .heading ,.sec-3 .heading ,.sec-4 .heading{
+        font-size: 25px;
+    }
+
+    .sec-1 h4 , .sec-2 h4 , .sec-3 h4 , .sec-4 h4 {
+        width: 350px;
+    }
+    .services {
+        margin-top: 0px;
+    }
+
+    .pricing h1.heading{
+        font-size: 30px;
+    }
+
+    .pricing-cards{
+        margin-top: 5px;
+        margin-left: 0px;
+        display: block;
+    }
+    .pricing .price-card:nth-child(3){
+        display:block ;
+    }
+    .price-card{
+        margin: 0;
+        width: 250px;
+        margin: 5px;
+    }
+    .feedback-heading h1{
+        font-size: 20px;
+        line-height: 1;
+    }
+    .feedback-heading h4{
+        font-size: 15px;
+    }
+    .feedback-card p{
+        font-size: 12px;
+    }
+    .feedback-card i{
+        font-size: 30px;
+    }
+    .blockR h3 , .blockR h4{
+        font-size: 12px;
+    }
+
+    .footer h4 , .footer a{
+        font-size: 12px;
+    }
+}
