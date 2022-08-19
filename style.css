@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px 10%;
+}
+
+.logo img{
+    width: 80px;
+}
+.logo{
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.nav-item{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: large;
+    color: gray;
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav-active-item{
+    color: #000;
+    font-weight: 600;
+}
+nav button{
+    margin-left: 30px;
+}
+.nav-btn{
+    background-color: transparent;
+    font-size: large;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #12B0E8;
+    border-color: #12B0E8;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sec-1{
+    margin: 20px 10%;
+    display: flex;
+}
+.sec-1 .right-float{
+    margin: auto;
+   text-align: center;
+    width: 100%;
+    
+}
+.sec-1 .left-float{
+    width: 100%;
+}
+
+.sec-1 img{
+    width: 450px;
+}
+
+.sec-1 .heading{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec-1 h4{
+    /* width: 60%; */
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.sec-1 button{
+    background-color: #12B0E8;
+    font-size: large;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.sec-2{
+    margin: 20px 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.sec-2 img{
+    width: 450px;
+}
+
+.sec-2 .heading{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec-2 h4{
+    width: 60%;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.sec-2 button{
+    background-color: #12B0E8;
+    font-size: large;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.sec-2 .right-float{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+.sec-2 .left-float{
+    width: 100%;
+    flex-basis: auto;
+}
+.sec-3{
+    margin: 20px 10%;
+    display: flex;
+}
+.sec-3 .right-float{
+    margin: auto;
+   text-align: center;
+    width: 100%;
+    
+}
+.sec-3 .left-float{
+    width: 100%;
+}
+
+.sec-3 img{
+    width: 450px;
+}
+
+.sec-3 .heading{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec-3 h4{
+    /* width: 60%; */
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.sec-3 button{
+    background-color: #12B0E8;
+    font-size: large;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.sec-4{
+    margin: 20px 10%;
+    display: flex;
+}
+
+.sec-4 h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+.sec-4 h4{
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: gray;
+    width: 100%;
+}
+
+.services{
+    margin: 20px 10%;
+}
+.services .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    
+    
+}
+.services .card{
+    height: 250px;
+    width: 350px;
+    background-color: rgba(18, 175, 232, 0.3);
+}
+
+.services .card .content{
+    padding: 10px;
+}
+
+.services .card .content .img i{
+    font-size: 40px;
+}
+
+.services .card h1{
+    margin-top: 10px;
+}
+
+.services .card h3{
+    margin-top: 10px;
+    font-size: small;
+    color: gray;
+    line-height: 2;
+    width: 300px;
+}
+.pricing{
+    background-color: #12B0E8;
+}
+.pricing-cards{
+    margin: 20px 10%;
+    margin-top: 50px;
+}
+/* Confused stuck */
+#main{
+    background-color: black;
+    color: white;
+    margin: -10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.pricing  h1.heading{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 40px;
+}
+.pricing .content{
+    padding: 10px;
+}
+
+.pricing-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.price-card{
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    height: 620px;
+    margin: 60px 0;
+}
+.pricing .pack-heading h1{
+    font-size: 40px;
+}
+.pricing .pack-heading h4{
+    font-size: medium;
+    color: grey;
+}
+
+.pricing .list-items{
+    list-style: none;
+    margin-top: 30px;
+    line-height: 3;
+}
+
+.pricing .list-items span{
+    margin-right: 10px;
+}
+
+.pricing .price-detail{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.pricing .price-detail h1{
+    font-size: 30px;
+}
+.pricing .price-detail h1 span,.pricing .price-detail h4{
+    color: gray;
+}
+
+.pricing button{
+    font-size: large;
+    font-weight: 800;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border-color: #12B0E8;
+    color:#12B0E8;
+    background-color: transparent;
+    cursor: pointer;
+}
+.pricing .btn{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.cuastomer-feedback{
+    margin: 20px 10%;
+    margin-top: 50px;
+}
+.cuastomer-feedback .feedback-heading h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+}
+.cuastomer-feedback .feedback-heading h4{
+    text-align: center;
+    margin-top: 10px;
+    color: grey;
+}
+
+.feedback-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 30px;
+    
+}
+
+.feedback-card{
+    background-color: powderblue;
+    height: 220px;
+    width: 580px;
+    border-radius: 10px;
+}
+.feedback-card .content{
+    padding: 10px;
+    line-height: 2;
+}
+
+.feedback-card i{
+    font-size: 50px;
+}
+
+.feedback-card .block{
+    text-align: left;
+    margin-top: 20px;
+}
+.feedback-card i , .feedback-card .blockR{
+    display: inline-block;
+    margin-left: 10px;
+}
+.feedback-card h4{
+    font-weight: 400;
+}
+
+.register{
+    background-color:#12B0E8;
+    height: 300px;
+}
+
+.register .container{
+    margin: 20px 10%;
+    margin-top: 50px;
+    padding-top: 50px;
+    display: flex;
+}
+.register .left{
+    width: 100%;
+    color: white;
+}
+
+.register .right{
+    width: 100%;
+}
+
+.register .left h1{
+    font-size: 50px;
+}
+.register .left h4{
+    font-weight: 400;
+}
+.register button{
+    font-size: large;
+    font-weight: 800;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.register .right{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10%;
+    margin-top: 100px;
+}
+
+.footer .heading img{
+    width: 100px;
+    cursor: pointer;
+}
+.footer .heading {
+    width: 250px;
+    color: gray;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: gray;
+  }
+.menu{
+line-height: 2;
+margin-top: 10px;
+}
+.social-media{
+    line-height: 2;
+    margin-top: 10px;
+}
+.overview{
+    line-height: 2;
+    margin-top: 10px;
+}
+.details{
+    margin-top: 10px;
+    line-height: 2;
+}
+.details i{
+    cursor: pointer;
+    background: linear-gradient(45deg, #DB0B5F ,#6F00ED);
+    -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+}
+
+.footer i{
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.cr {
+ text-align:center;
+ padding: 20px 0;
+}
+
+@media screen and (max-width: 1330px)  {
+    .logo{
+        display: none;
+    }
+    nav{
+        justify-content: start;
+    }
+    .sec-1{
+        scale: 0.8;
+        margin: 0 auto;
+    }
+    .sec-2{
+        scale: 0.8;
+        margin: 0 auto;
+    }
+    .sec-3{
+        scale: 0.8;
+        margin: 0 auto;
+    }
+    .sec-4{
+        scale: 0.8;
+        margin: 0 auto;
+    }
+    .services{
+        scale: 0.8;
+        margin: 0 auto;
+    }
+    .pricing .price-card{
+        scale: 0.8;
+        width: 400px;
+    }
+    
+    .feedback-card{
+        margin: 0 auto;
+    }
+    .register .container{
+        scale: 0.8;
+        margin: 0 auto;
+    }
+   
+}
+
+@media screen and (max-width: 1000px) {
+    .sec-1 .right-float , .sec-2 .right-float, .sec-3 .right-float  {
+        display: none;
+    }
+    .sec-1 h4 , .sec-2 h4 , .sec-3 h4 , .sec-4 h4 {
+        width: 600px;
+    }
+    .sec-4{
+        display: block;
+    }
+    .sec-1 , .sec-2 , .sec-3 , .sec-4 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pricing .price-card:nth-child(3){
+        display: none;
+    }
+    .services .card{
+        margin: 0 auto;
+    }
+    header{
+        padding: 5px;
+        background-color: bisque;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .register{
+        display: none;
+    }
+    .footer{
+        justify-content: space-around;
+    }
+    .footer .heading , .footer .details{
+        display: none;
+    }
+}
